@@ -14,4 +14,4 @@ alert(km*1000)
 // bài tập 5
 let a="Hello"
 let b="MindX"
-console.log(a.)
+console.log(a+b)
