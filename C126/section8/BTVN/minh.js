@@ -1,17 +1,17 @@
-// // bài tập 1
-// let x = parseFloat(prompt("Hãy nhập biến thứ nhất"))
-// let y = parseFloat(prompt("Hãy nhập biến thứ hai"))
-// let result;
-// let dau = prompt("Hãy nhập phép tính")
-// if( dau == "+" ){
-// alert(`${x} + ${y} = ${x+y}`)
-// }else if ( dau == "-" ){
-//     alert( `${x} - ${y} = ${x-y}` ) 
-// }else if( dau == "*" ){
-//     alert( `${x} * ${y} = ${x * y}` )
-// }else {
-//     alert( `${x} / ${y} = ${x/y}` )
-// }
+// bài tập 1
+let x = parseFloat(prompt("Hãy nhập biến thứ nhất"))
+let y = parseFloat(prompt("Hãy nhập biến thứ hai"))
+let result;
+let dau = prompt("Hãy nhập phép tính")
+if( dau == "+" ){
+alert(`${x} + ${y} = ${x+y}`)
+}else if ( dau == "-" ){
+    alert( `${x} - ${y} = ${x-y}` ) 
+}else if( dau == "*" ){
+    alert( `${x} * ${y} = ${x * y}` )
+}else {
+    alert( `${x} / ${y} = ${x/y}` )
+}
 
 
 // bài tập 2
