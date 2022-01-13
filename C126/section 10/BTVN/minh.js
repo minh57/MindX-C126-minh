@@ -37,8 +37,9 @@ let obj2 = {
   bar: ["example", "mem", null, { xyz: 6 }, 88],
   qux: [4, 8, 12]
 }
-// obj2.bar[3].xyz = 606
-// console.log(obj2)
-
+// cách 1
+obj2.bar[3].xyz = 606
+console.log(obj2)
+// cách 2
 obj2.bar.splice(3,1,606)
 console.log(obj2)
